@@ -181,14 +181,14 @@ h1 {
         font-size: 1.5rem;
     }
 
-    .label-score, .right, .score {
+    .label-score, .right, .score, .message {
         font-size: 1rem;
     }
 
-    .message {
-        /* margin-bottom: 0.8rem; */
+    /* .message {
+        margin-bottom: 0.8rem;
         display: none;
-    }
+    } */
 
     .between {
         font-size: 1rem;
@@ -213,7 +213,7 @@ h1 {
         left: 0.4rem;
     }
 
-    .label-score, .right, .score {
+    .label-score, .right, .score, .message {
         font-size: 0.8rem;
     }
 }
