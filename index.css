@@ -118,6 +118,12 @@ h1 {
     margin-bottom: 2rem;
 }
 
+@media (max-width:600px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
+
 @media (max-width:520px) {
     .btn {
         font-size: 1.5rem;
@@ -131,6 +137,10 @@ h1 {
 
     }
 
+    .between {
+        font-size: 1.2rem;
+    }
+
     .guess {
         font-size: 5rem;
         padding: 1.5rem;
@@ -142,7 +152,7 @@ h1 {
     }
 
     .message, .label-score, .right {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
 
@@ -168,23 +178,53 @@ h1 {
     }
 
     h1 {
-        font-size: 2.1rem;
-    }
-
-    .message, .label-score, .right {
         font-size: 1.5rem;
     }
 
+    .label-score, .right, .score {
+        font-size: 1rem;
+    }
+
     .message {
-        margin-bottom: 0.8rem;
+        /* margin-bottom: 0.8rem; */
+        display: none;
     }
 
     .between {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .right {
         width: 45rem;
         margin-left: 1rem;
+    }
+}
+
+@media (max-width:310px) {
+    .btn {
+        padding: 0.5rem;
+        font-size: 0.8rem;
+        margin: 0;
+    }
+
+    .again {
+        position: absolute;
+        top: 2rem;
+        left: 0.4rem;
+    }
+
+    .label-score, .right, .score {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width:262px) {
+    .again {
+        display: none;
+    }
+
+    .guess {
+        margin-bottom: 1rem;
+        width: 10rem;
     }
 }
