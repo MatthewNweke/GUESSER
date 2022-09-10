@@ -144,4 +144,47 @@ h1 {
     .message, .label-score, .right {
         font-size: 1.5rem;
     }
+
+
+}
+
+@media (max-width:400px) {
+    .btn {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+    .number {
+        font-size: 3rem;
+        width: 7rem;
+        padding: 1rem;
+
+    }
+
+    .guess {
+        font-size: 4rem;
+        padding: 1rem;
+        width: 13rem;
+    }
+
+    h1 {
+        font-size: 2.1rem;
+    }
+
+    .message, .label-score, .right {
+        font-size: 1.5rem;
+    }
+
+    .message {
+        margin-bottom: 0.8rem;
+    }
+
+    .between {
+        font-size: 1.2rem;
+    }
+
+    .right {
+        width: 45rem;
+        margin-left: 1rem;
+    }
 }
